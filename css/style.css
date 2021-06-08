@@ -8,6 +8,7 @@
 --logo-style-font: 'Raleway', sans-serif;
 --black-color: #000000;
 --cards-color: #EEEEEE;
+--pink-color: #F5F4FA;
 }
 * {
     margin: 0; 
@@ -103,7 +104,6 @@ h1 h2 h3 h4 h5 {
 .contacts-up li:not(:first-child){
     margin-left: 50px;
 }
-
 .site-nav :hover,
 .site-nav :focus,
 .contacts-up :hover,
@@ -154,6 +154,35 @@ h1 h2 h3 h4 h5 {
     color: var(--primary-text-color);
     padding-top: 10px;
     margin: 0;
+}
+.section-two-icons::before{
+    background: var(--pink-color);
+    display: block;
+    content: '';
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    outline: 1px solid transparent;
+}
+.section-two-icons:nth-child(1)::before{
+    background: var(--pink-color) url(../images/post/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-two-icons:nth-child(2)::before{
+    background: var(--pink-color) url(../images/post/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-two-icons:nth-child(3)::before{
+    background: var(--pink-color) url(../images/post/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-two-icons:nth-child(4)::before{
+    background: var(--pink-color) url(../images/post/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* SECTION_TWO */
 
@@ -393,7 +422,7 @@ h1 h2 h3 h4 h5 {
 }
 .six-companies li{
     border: 1px solid red;
-    /* display: inline-block;  */
+    display: inline-block;
     /* padding: 16px 32px; */
     /* display: inline-flex; */
     justify-content: space-evenly;
@@ -402,7 +431,11 @@ h1 h2 h3 h4 h5 {
 .company-icons{
   width: 170px;
   height: 92px;
+  box-sizing: border-box;
   /* padding: 16px 32px;  */
+}
+.logos-companies{
+   
 }
 /* SECTION_FIVE */
 
