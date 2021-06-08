@@ -98,8 +98,9 @@ h1 h2 h3 h4 h5 {
     justify-content: space-between;  
 }
 .contacts-up { 
-  display: flex;
-  margin-left: auto;
+   display: flex;
+   margin: auto;
+   align-items: center;
 } 
 .contacts-up li:not(:first-child){
     margin-left: 50px;
@@ -107,8 +108,11 @@ h1 h2 h3 h4 h5 {
 .site-nav :hover,
 .site-nav :focus,
 .contacts-up :hover,
-.contacts-up :focus {
+.contacts-up :focus,
+.icon-mail:hover,
+.icon-mail:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 .link:active {
     color: var(--accent-color);
@@ -123,6 +127,12 @@ h1 h2 h3 h4 h5 {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+.icon-mail{
+    margin-right: 10px;
+}
+.icon-mail{
+    fill: var(--primary-text-color);
 }
 /* SECTION_HEADER */
 
