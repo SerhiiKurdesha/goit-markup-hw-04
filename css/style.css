@@ -378,7 +378,6 @@ h1 h2 h3 h4 h5 {
     margin-bottom: 50px;
 }
 .worker-list li {
-    width: 270px;
     text-align: center;
     border-radius: 0 0 4px 4px;
 }
@@ -415,6 +414,25 @@ h1 h2 h3 h4 h5 {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.icon-section-team{
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-section-four{
+    width: 20px;
+    height: 20px; 
+}
+.icon-section-four-team{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.icons-image{
+    display: inline-block;
+}
 /* SECTION_FOUR */
 
 /* SECTION_FIVE */
@@ -436,6 +454,7 @@ h1 h2 h3 h4 h5 {
 }
 .six-companies{
     display: flex;
+    justify-content: space-around;
 }
 .company-icons{
   width: 170px;
@@ -446,11 +465,24 @@ h1 h2 h3 h4 h5 {
 .logos-companies{
     border: 1px solid;
     box-sizing: border-box;
-    width: 170px;
-    height: 92px;
     border-radius: 4px;
-   
 }
+.logos-companies:focus,
+.logos-companies:hover,
+.six-logo-companies:focus,
+.six-logo-companies:hover{
+    fill: var(--accent-color);
+    color: var(--accent-color); 
+} 
+.six-logo-companies{
+    width: 106px;
+    margin: 16px 32px;
+    fill: var(--primary-text-color); 
+}
+/* .six-logo-companies:focus,
+.six-logo-companies:hover{
+    fill: var(--accent-color);
+}   */
 /* SECTION_FIVE */
 
 
@@ -487,5 +519,11 @@ h1 h2 h3 h4 h5 {
 }
 .footer-icons{
     display: flex;
+}
+.footer-line.container{
+    display: flex;
+}
+.icon-footrl-line{
+    display: ;
 }
 /* FOOTER_SECTION */
