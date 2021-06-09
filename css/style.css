@@ -520,6 +520,10 @@ h1 h2 h3 h4 h5 {
 .footer-one{
     display: flex;
 }
+.section-join{
+    margin-left: 70px;
+
+}
 .join{
     font-style: normal;
     font-weight: bold;
