@@ -491,10 +491,6 @@ h1 h2 h3 h4 h5 {
     margin: 16px 32px;
     fill: var(--primary-text-color); 
 }
-/* .six-logo-companies:focus,
-.six-logo-companies:hover{
-    fill: var(--accent-color);
-}   */
 /* SECTION_FIVE */
 
 
@@ -529,14 +525,11 @@ h1 h2 h3 h4 h5 {
 .address-one{
     display: flex;
 }
-.footer-one{
-    display: flex;
-}
 .section-join{
     margin-left: 70px;
-
-}
+} 
 .join{
+    margin-top: 10px;
     font-style: normal;
     font-weight: bold;
     line-height: 1.14;
@@ -565,5 +558,8 @@ h1 h2 h3 h4 h5 {
 .icon-footer-line-two:focus,
 .icon-footer-line-two:hover{
     background: var(--accent-color);
+}
+.footer-line .container{
+    display: flex;
 }
 /* FOOTER_SECTION */
