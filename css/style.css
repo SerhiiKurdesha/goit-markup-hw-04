@@ -9,6 +9,7 @@
 --black-color: #000000;
 --cards-color: #EEEEEE;
 --pink-color: #F5F4FA;
+--four-icons-color: #afb1b8;
 }
 * {
     margin: 0; 
@@ -99,7 +100,7 @@ h1 h2 h3 h4 h5 {
 }
 .contacts-up { 
    display: flex;
-   margin: auto;
+   margin-left: auto;
    align-items: center;
 } 
 .contacts-up li:not(:first-child){
@@ -435,12 +436,13 @@ h1 h2 h3 h4 h5 {
     fill: var(--cards-color);
 }
 .icon-section{
-    padding: 12px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: var(--primary-text-color);
+    fill: var(--four-icons-color);
     background: var(--header-color);
 }
 /* SECTION_FOUR */
@@ -551,8 +553,9 @@ h1 h2 h3 h4 h5 {
     margin-right: 10px;
 }
 .icon-footer-line-two{
-    padding: 12px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
