@@ -123,6 +123,8 @@ h1 h2 h3 h4 h5 {
 }
 
 .list {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -416,14 +418,13 @@ h1 h2 h3 h4 h5 {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
-    /* text-align: center; */
+    margin-bottom: 16px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 .icon-section-team{
     padding-left: 32px;
     padding-right: 32px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -486,13 +487,6 @@ h1 h2 h3 h4 h5 {
     color: var(--accent-color); 
     fill: var(--accent-color);
 }  
-/* .six-logo-companies{
-    border: 1px solid var(--four-icons-color); 
-    padding: 16px 32px;
-    width: 170px;
-    height: 92px;
-    fill: var(--four-icons-color);
-} */
 /* SECTION_FIVE */
 
 
@@ -563,5 +557,6 @@ h1 h2 h3 h4 h5 {
 }
 .footer-line .container{
     display: flex;
+    align-items: baseline;
 }
 /* FOOTER_SECTION */
